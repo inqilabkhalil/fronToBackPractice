@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("frontToBackPractice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5befc32f08973be67886c669ac458f72694e6e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84f14e1374f15279af2774030cec13e601e088b")]
 [assembly: System.Reflection.AssemblyProductAttribute("frontToBackPractice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("frontToBackPractice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
