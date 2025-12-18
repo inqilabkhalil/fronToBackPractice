@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Fiorello – Flower Shop</title>
+
+    <link rel="icon" href="~/assets/img/favicon.png" />
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/assets/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <a class="navbar-brand" href="/">
+                <img src="~/assets/img/logo.png" alt="Logo" id="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item my-auto ml-3">
+                        <i class="fas fa-shopping-bag"></i>
+                        <sup class="rounded-circle">0</sup>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= BODY ================= -->
+@RenderBody()
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-6 col-lg-3">
+                <h6>CUSTOMER SERVICE</h6>
+                <ul class="list-unstyled mt-3">
+                    <li><a class="text-black-50" href="#">Help & Contact Us</a></li>
+                    <li><a class="text-black-50" href="#">Returns & Refunds</a></li>
+                    <li><a class="text-black-50" href="#">Online Stores</a></li>
+                    <li><a class="text-black-50" href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6>COMPANY</h6>
+                <ul class="list-unstyled mt-3">
+                    <li><a class="text-black-50" href="#">About Us</a></li>
+                    <li><a class="text-black-50" href="#">Blog</a></li>
+                    <li><a class="text-black-50" href="#">Order Tracking</a></li>
+                    <li><a class="text-black-50" href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6>SOCIAL MEDIA</h6>
+                <ul class="list-unstyled mt-3">
+                    <li><a class="text-black-50" href="#">Twitter</a></li>
+                    <li><a class="text-black-50" href="#">Instagram</a></li>
+                    <li><a class="text-black-50" href="#">Pinterest</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h6>ARCHIVE</h6>
+                <ul class="list-unstyled mt-3">
+                    <li><a class="text-black-50" href="#">Gallery</a></li>
+                    <li><a class="text-black-50" href="#">Pricing</a></li>
+                    <li><a class="text-black-50" href="#">Support</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row py-2 align-items-center">
+            <div class="col-lg-4 text-center text-lg-left">
+                <p class="text-black-50 mb-0">
+                    © 2020 Fiorello Theme
+                </p>
+            </div>
+
+            <div class="col-lg-4 text-center">
+                <img src="~/assets/img/footer-bottom-1.png" alt="">
+            </div>
+
+            <div class="col-lg-4 text-center text-lg-right">
+                <a class="text-black-50 mr-3" href="#">LINKEDIN</a>
+                <a class="text-black-50" href="#">FACEBOOK</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/e5e249fce2.js" crossorigin="anonymous"></script>
+
+<script src="~/assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="~/assets/js/script.js"></script>
+
+</body>
+</html>

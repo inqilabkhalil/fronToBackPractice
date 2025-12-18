@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "frontToBackPractice/1.0.0": {
+        "runtime": {
+          "frontToBackPractice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "frontToBackPractice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
