@@ -3,6 +3,7 @@ using frontToBackPractice.Data;
 using Microsoft.AspNetCore.Mvc;
 using frontToBackPractice.Models;
 using frontToBackPractice.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace frontToBackPractice.Controllers;
 
@@ -19,10 +20,12 @@ public class HomeController : Controller
     {
         List<Slider> slider = _context.Sliders.ToList();
         SliderInfo sliderInfo = _context.SliderInfos.FirstOrDefault();
+        List<Blog> blogs = _context.Blogs.Take(3).Include(m => m.Images).ToList();
         HomeVM model = new HomeVM()
         {
             SliderInfo = sliderInfo,
-            Sliders = slider
+            Sliders = slider,
+            Blogs = blogs
         };
         return View(model);
     }
